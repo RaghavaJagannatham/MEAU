@@ -3,7 +3,7 @@ Did not attach javascript file.Available only Design pack.(Using HTML,CSS)
 
 - **Sign in form**
 
-![img_1](https://user-images.githubusercontent.com/46102435/67423893-af183200-f5f2-11e9-9a54-d8f761fe33d0.PNG)
+![img_1](https://github.com/RaghavaJagannatham/MEAU/blob/stare/images/sign-in.png)
 
 - **Sign up form (Details)**
 
