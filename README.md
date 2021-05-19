@@ -1,5 +1,4 @@
 # WEB-Login-Signup-Form
-Did not attach javascript file.Available only Design pack.(Using HTML,CSS) 
 
 - **Sign in form**
 
@@ -15,6 +14,5 @@ Did not attach javascript file.Available only Design pack.(Using HTML,CSS)
 
 - **Sign up form (Account Config)**
 
-![img_4](https://user-images.githubusercontent.com/46102435/67424066-0e764200-f5f3-11e9-8653-74226c563b55.PNG)
+![img_4](https://github.com/RaghavaJagannatham/MEAU/blob/stare/images/Account-config.png)
 
-- Design by : P M A T Anjana Bandara (NSBM Student)
