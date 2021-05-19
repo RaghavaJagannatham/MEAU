@@ -7,7 +7,7 @@ Did not attach javascript file.Available only Design pack.(Using HTML,CSS)
 
 - **Sign up form (Details)**
 
-![img_2](https://user-images.githubusercontent.com/46102435/67423960-d969ef80-f5f2-11e9-9ed3-03e6153bf47a.PNG)
+![img_2](https://github.com/RaghavaJagannatham/MEAU/blob/stare/images/Details.png)
 
 - **Sign up form (Qualifications)**
 
