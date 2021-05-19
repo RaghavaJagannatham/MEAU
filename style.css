@@ -22,6 +22,7 @@ h2{
   margin: 5% 35% 0 35%;
   padding: 25px;
   background-color: rgba(255, 255, 255, 0.2);
+  /*background:linear-gradient(35deg, #CCFFFF, #FFCCCC);*/
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -50,8 +51,9 @@ h2{
 }
 /*Add user img style*/
 .User_img{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
 /*Add style for sign in button */
 .btn_Next{
@@ -105,4 +107,7 @@ h2{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 	background-color:darkgray;
 	color: white;
+}
+.navbar-nav >.nav-item{
+	color: red;
 }

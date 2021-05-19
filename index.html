@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="javascript.js"></script>
 	<title>MEAU</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
 <center>
 	<form>
 		<div class="card">
-		  <img class="User_img" src="images/User.png" alt="User">
+		  <img class="User_img" src="images/meau.jpg" alt="User">
 		  <div class="container">
 		    <h2><b>Sign in Form</b></h2>
-		    <input class="textbox" type="text" name="username" placeholder="Enter The User Name" size="35">
+		    <input class="textbox" type="text" id="name" placeholder="Enter The User Name" size="35">
 		    <br>
-		    <input class="textbox" type="password" name="username" placeholder="Enter The Password" size="35">
+		    <input class="textbox" type="password" id="username" placeholder="Enter The Password" size="35">
 		    <p>Please sign in your account.</p>
 		    <a href="SignUp.html">Sign up newcomers.!</a>
 		    <br>
-		    <input class="btn_signin" type="button" name="signin" value="Sign In">
+		    <input class="btn_signin" type="button" value="Sign In" onclick=signIn()>
 		    <input class="btn_clear" type="reset" name="clear" value="Clear">
+			<a href="Newpage.html">newpage</a>
 		  </div>
 		</div>
 	</form>
