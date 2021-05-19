@@ -11,7 +11,7 @@ Did not attach javascript file.Available only Design pack.(Using HTML,CSS)
 
 - **Sign up form (Qualifications)**
 
-![img_3](https://user-images.githubusercontent.com/46102435/67424045-03231680-f5f3-11e9-895c-8531bfdd536e.PNG)
+![img_3](https://github.com/RaghavaJagannatham/MEAU/blob/stare/images/Qualifications.png)
 
 - **Sign up form (Account Config)**
 
