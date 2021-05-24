@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Delete1</title>
+
+    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      	$(function() 
+	{
+		$("#submit").click(function()
+		{
+		  var name1=$("#name").val();
+      var lastname=$("#lastName").val();
+      var classs=$("#class").val();
+      var subjects=$("#subjects").val();
+      var Address=$("#Address").val();
+      var country=$("#country").val();
+      var email =$("#inputEmail3").val();
+
+      localStorage.setItem("email",email);
+			localStorage.setItem("name1",name1);
+      localStorage.setItem("lastname",lastname);
+      localStorage.setItem("class",classs);
+      localStorage.setItem("subjects",subjects);
+      localStorage.setItem("Address",Address);
+      localStorage.setItem("country",country);
+					
+      window.location.href="delete2.html";
+			
+		});
+  });
+    </script>
+  </head>
+  <body>
+    <input type="text" id="daddress">
+    <input type="text" id="dcountry">
+    <button id="submit">
+      submit
+    </button>
+    <h2>Create JSON string from a JavaScript object.</h2>
+    <p id="demo"></p>
+    <p id="address"></p>
+    <p id="mobile"></p>
+    <p id="object"></p>
+    <p id="demos"></p>
+    <!--<script>
+      document.getElementById("demo").innerHTML =
+      obj.employees[0].firstName + " " + obj.employees[0].lastName;
+
+      document.getElementById("address").innerHTML =
+      obj.employees[0].Address;
+  
+      document.getElementById("mobile").innerHTML =
+      obj.employees[0].Mobile;
+      document.getElementById("object").innerHTML =
+      obj.employees;
+
+    </script>-->
+
+    
+  </body>
+</html>
+
+<!--<div>
+  Name: <input id="Name1" type="text" ><br>
+  lastName: <input id="lastName" type="text" ><br>
+  class: <input id="class" type="text" ><br>
+  subjects: <input id="subjects" type="text" ><br>
+   <input id="Address" type="text"  placeholder="Address"><br>
+  <input id="country" type="text" placeholder="Country">
+  <button type="button" id="submit"><a href="delete2.html">submit</a></button>
+
+</div>-->
+
+<!--document.getElementById("demo").innerHTML =
+obj.employees[0].firstName + " " + obj.employees[0].lastName;
+
+  document.getElementById("address").innerHTML =
+  obj.employees[0].Address;
+  
+    document.getElementById("mobile").innerHTML =
+    obj.employees[0].Mobile;
+    document.getElementById("object").innerHTML =
+    obj.employees;-->
